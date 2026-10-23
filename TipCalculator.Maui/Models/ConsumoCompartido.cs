@@ -16,7 +16,7 @@ namespace TipCalculator.Maui.Models
             => ImporteDelConsumo / NumeroDePersonas;
         public decimal ImporteDeLaPropina
             => ImporteDelConsumo * PorcentajeDePropina / 100.0m;
-        public decimal ImporteDeLaPRopinaPorPersona
+        public decimal ImporteDeLaPropinaPorPersona
             => ImporteDeLaPropina / NumeroDePersonas;
         public decimal ImporteTotalConPropina
             => ImporteDelConsumo + ImporteDeLaPropina;
